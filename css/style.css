@@ -105,3 +105,29 @@ header{
     min-height: 1000px;
     background-color: lightgray;
 }
+.ColoreNero{
+    max-width: 1920px;
+    min-height: 630px;
+    background-color: black;
+}
+.Pink2{
+    background-color: lightcoral;
+    min-height: 580px;
+    width: calc(100% / 6 * 2);
+}
+.ColoreAcqua{
+    background-color: aquamarine;
+    min-height: 580px;
+    width: calc(100% / 6 * 4);
+}
+.ColoreNero2{
+    background-color: black;
+    min-height: 110px;
+    max-width: 1920px;
+}
+.ColoreAcqua1{
+    background-color: aquamarine;
+    min-height: 80px;
+    min-width: 1200px;
+    margin-bottom: 0;
+}
