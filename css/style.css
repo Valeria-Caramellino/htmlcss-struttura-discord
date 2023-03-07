@@ -1,133 +1,93 @@
-*{
-    margin: 0;
-    padding: 0;
+* {
     box-sizing: border-box;
+    padding: 0;
+    margin: 0;
 }
-header{
-    max-width: 1920px;
-    min-height: 580px;
-    background-color: aqua;
+
+.w20 { width: 20%; }
+.w25 { width: 25%; }
+.w30 { width: 30%; }
+.w40 { width: 40%; }
+.w50 { width: 50%; }
+.w60 { width: 60%; }
+.w70 { width: 70%; }
+.w100 { width: 100%; }
+
+.spazio {
+    padding: 10px;
 }
-.ColoreAzzurro{
-    max-width: 1920px;
-    min-height: 80px;
-    background-color:deepskyblue;
+
+.text-left { text-align: left; }
+.text-center { text-align: center; }
+.text-right { text-align: right; }
+
+.h100 {
+    height: 100%;
 }
-.Flex{
-   display: flex;
-   justify-content: space-between;
-   align-items: center;
-} 
-.ColoreGiallo{
+
+.flex {
+    display: flex;
+}
+
+.boxed {
     max-width: 1200px;
-    min-height: 40px;
-    background-color: gold;
     margin: 0 auto;
-   /* display: flex;
+}
+
+.arancio { background-color: goldenrod; }
+.grigio { background-color: lightgray; }
+.azzurro { background-color: dodgerblue; }
+.rosa { background-color: pink; }
+.blue { background-color: darkblue; }
+.viola { background-color: violet; }
+.verde { background-color: green; }
+.nero { background-color: black; }
+.acqua { background-color: aquamarine; }
+
+header {
+    background-color: lightblue;
+}
+
+.nav {
+    height: 80px;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 20px;
+}
+
+.hero {
+    height: 500px;
+    padding: 50px;
+    justify-content: center;
+}
+
+.row > div.boxed {
+    height: 500px;
+    padding: 50px 0 50px 0;
+}
+
+#Grande { 
+    height: 1000px;
+}
+
+.footerTop {
+    height: 500px;
+    padding-bottom: 50px;
+    padding-top: 10px;
+}
+.footerBottom {
+    height: 100px;
+    margin-top: 20px;
     justify-content: space-between;
     align-items: center;
-    align-content: center;
-    flex-wrap: wrap;*/
 }
-.ColoreBlue{
-    max-width: 1920px;
-    min-height: 500px;
-    background-color: blue;
+.footerLeft {
+    background-color: lightcoral;
+}
+.footerRight {
+    background-color: lightseagreen;
+}
 
-}
-.ColoreRosa{
-    min-width: 45%;
-    min-height: 400px;
-    background-color: pink;
-    margin-left: auto;
-    margin-right: auto;
-}
-.ColoreBianco{
-    max-width: 1920px;
-    min-height: 600px;
-    background-color: white;
-}
-.dimensione{
-    max-width: 1200px;
-    min-height: 600px;
-    margin: 0 auto;
-}
-.ColoreAzzurrino{
-    background-color: lightblue;
-    width: calc(100% / 3 * 2);
-    min-height: 500px;
-}
-.ColorePink{
-    background-color: lightcoral;
-    width: calc(100% / 3);
-    min-height: 500px;
-}
-.box{
-    display: flex;
-    align-content: center;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-}
-.box1{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-}
-.ColoreGrigio{
-    max-width: 1920px;
-    min-height: 600px;
-    background-color: lightgray;
-}
-.ColoreAzzurrino1{
-    background-color: lightblue;
-    width: calc(100% / 3);
-    min-height: 500px;
-}
-.ColorePink1{
-    background-color: lightcoral;
-    width: calc(100% / 3 * 2);
-    min-height: 500px;
-}
-.ColoreVerde{
-    min-height: 900px;
-    min-width: 1200px;
-    background-color: green;
-    margin-left: auto;
-    margin-right: auto;
-}
-.ColoreGrigio1{
-    max-width: 1920px;
-    min-height: 1000px;
-    background-color: lightgray;
-}
-.ColoreNero{
-    max-width: 1920px;
-    min-height: 630px;
-    background-color: black;
-}
-.Pink2{
-    background-color: lightcoral;
-    min-height: 580px;
-    width: calc(100% / 6 * 2);
-}
-.ColoreAcqua{
-    background-color: aquamarine;
-    min-height: 580px;
-    width: calc(100% / 6 * 4);
-}
-.ColoreNero2{
-    background-color: black;
-    min-height: 110px;
-    max-width: 1920px;
-}
-.ColoreAcqua1{
-    background-color: aquamarine;
-    min-height: 80px;
-    min-width: 1200px;
-    margin-bottom: 0;
+.spaziofooter {
+    padding: 0.5em;
 }
